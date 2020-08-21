@@ -1,0 +1,415 @@
+{
+  "routes": [
+    {
+      "id": "R00028c-C0",
+      "sections": [
+        {
+          "id": "R00028c-C0-S0",
+          "type": "taxi",
+          "preActions": [{ "action": "wait", "duration": 300 }],
+          "actions": [
+            {
+              "action": "depart",
+              "duration": 40,
+              "instruction": "Head toward Prince St on Crosby St. Go for 138 m.",
+              "offset": 0
+            },
+            {
+              "action": "turn",
+              "duration": 31,
+              "instruction": "Turn left onto Prince St. Go for 78 m.",
+              "offset": 1,
+              "direction": "left"
+            },
+            {
+              "action": "turn",
+              "duration": 67,
+              "instruction": "Turn left onto Broadway. Go for 326 m.",
+              "offset": 2,
+              "direction": "left"
+            },
+            {
+              "action": "turn",
+              "duration": 52,
+              "instruction": "Turn right onto Broome St. Go for 316 m.",
+              "offset": 5,
+              "direction": "right"
+            },
+            {
+              "action": "keep",
+              "duration": 51,
+              "instruction": "Keep left onto Watts St toward Holland Tunnel/New Jersey. Go for 267 m.",
+              "offset": 9,
+              "direction": "left"
+            },
+            {
+              "action": "turn",
+              "duration": 115,
+              "instruction": "Turn right onto Holland Tunnel toward Holland Tunnel. Go for 1.5 km.",
+              "offset": 15,
+              "direction": "right"
+            },
+            {
+              "action": "continue",
+              "duration": 133,
+              "instruction": "Continue on Holland Tunnel. Go for 1.6 km.",
+              "offset": 40
+            },
+            {
+              "action": "turn",
+              "duration": 73,
+              "instruction": "Turn right onto Marin Blvd. Go for 526 m.",
+              "offset": 64,
+              "direction": "right"
+            },
+            {
+              "action": "continue",
+              "duration": 15,
+              "instruction": "Continue on Henderson St. Go for 64 m.",
+              "offset": 82
+            },
+            {
+              "action": "turn",
+              "duration": 90,
+              "instruction": "Turn right onto Observer Hwy (CR-681). Go for 616 m.",
+              "offset": 84,
+              "direction": "right"
+            },
+            {
+              "action": "turn",
+              "duration": 36,
+              "instruction": "Turn left onto Washington St. Go for 180 m.",
+              "offset": 97,
+              "direction": "left"
+            },
+            {
+              "action": "arrive",
+              "duration": 0,
+              "instruction": "Arrive at Washington St.",
+              "offset": 101
+            }
+          ],
+          "travelSummary": { "duration": 786, "length": 5592 },
+          "polyline": "BHkho3oYlo2sjsB2pU-nRy2GlwP11X3jUxsR1uO_jHtiGsxH_qQ4qHj8O-jHx6NosI3xQwhBx2G21Bj7JykDniTwhBvpP4G9gFsNl6Ei1F5wLijC79CuwCvwCwwCvhBm3CtN6sEyhBquFsNijCrNqrDnoBk3C9uBkmE5sE89C9gF6atwCs8Bn-LooB1uO01BpkQijC50S6apuFuN3pC6ap9G05I9j2CktN33tC4pCltN8ajmE6a37FkUr_Dy6N56vCq8Bl-LkUp9GmpGxunCq8BtqU4G14DwhB3tJooBp9GquFnzRq9G1yVykDxoKs8B9gFsNhjC6pC9gF4pCl6Es_DtxHijCxkDi1F5-H47FpgJ4pC9gF89C5-HkUl3C89Cx0fy6Ns8Bi5Ms8Bg1FkUwiGwhBi1F01B8yI6ai1FyhBijCsN-gF8as_D6a8a2GorDkU4pCsNyhB4GijC2Gs_DuNm3CsNuiGyhBi1FwhB0nF-uBz1BmtNnoB6-HhjC8kM3pCmtN14DolV9uBwlIz1Bu0JprD60SnoBgkHp8B28KtNm3C5aquF9uB-yI-uB2GgyDooBuqU47F0xFqzB",
+          "departure": {
+            "time": "2020-04-23T13:18:36-04:00",
+            "place": {
+              "type": "place",
+              "location": { "lat": 40.7228434, "lng": -73.9978371 }
+            }
+          },
+          "arrival": {
+            "time": "2020-04-23T13:31:42-04:00",
+            "place": {
+              "type": "place",
+              "location": { "lat": 40.7371812, "lng": -74.0309681 }
+            }
+          },
+          "transport": {
+            "mode": "taxi",
+            "category": "Taxi",
+            "color": "#FECC00"
+          },
+          "agency": { "id": "local_taxi", "name": "Yellow Cab NYC Taxi" },
+          "fares": [
+            {
+              "id": "fare-R00028c-C0-S0-T0-F0",
+              "name": "Taxi fare",
+              "price": {
+                "type": "value",
+                "estimated": true,
+                "currency": "USD",
+                "value": 12.0
+              },
+              "reason": "ride"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "R000621-C0",
+      "sections": [
+        {
+          "id": "R000621-C0-S0",
+          "type": "vehicle",
+          "actions": [
+            {
+              "action": "depart",
+              "duration": 77,
+              "instruction": "Head toward Prince St on Crosby St. Go for 307 m.",
+              "offset": 0
+            },
+            {
+              "action": "turn",
+              "duration": 109,
+              "instruction": "Turn left onto E Houston St. Go for 707 m.",
+              "offset": 3,
+              "direction": "left"
+            },
+            {
+              "action": "turn",
+              "duration": 63,
+              "instruction": "Turn slightly right onto Bedford St. Go for 302 m.",
+              "offset": 21,
+              "direction": "right",
+              "severity": "light"
+            },
+            {
+              "action": "continue",
+              "duration": 60,
+              "instruction": "Continue on Bedford St. Go for 295 m.",
+              "offset": 30
+            },
+            {
+              "action": "turn",
+              "duration": 16,
+              "instruction": "Turn left onto Christopher St. Go for 46 m.",
+              "offset": 37,
+              "direction": "left"
+            },
+            {
+              "action": "turn",
+              "duration": 17,
+              "instruction": "Turn right onto Hudson St. Go for 77 m.",
+              "offset": 38,
+              "direction": "right"
+            },
+            {
+              "action": "turn",
+              "duration": 37,
+              "instruction": "Turn right onto W 10th St. Go for 148 m.",
+              "offset": 39,
+              "direction": "right"
+            },
+            {
+              "action": "continue",
+              "duration": 49,
+              "instruction": "Continue on W 10th St. Go for 224 m.",
+              "offset": 40
+            },
+            {
+              "action": "arrive",
+              "duration": 0,
+              "instruction": "Arrive at W 10th St. Your destination is on the right.",
+              "offset": 43
+            }
+          ],
+          "postActions": [{ "action": "park", "duration": 300 }],
+          "travelSummary": { "duration": 458, "length": 2106 },
+          "polyline": "BHkho3oYlo2sjsB2pU-nR6iPi5Mk7JwlI6pCijC-gF50S-xDt0JwwCh1Fo6E5hKk3C1nFuxH3iP24Dj4Hs_D1qH8vG_nO02GvpP-uB79C4pCn6EijCvzEmoB79C0kDtiGijCt_DsN14Ds8BtN01Bz1Bs_Dn9G44D5pCwlI5sEk7J37F-gFxkD02G14D-gFxkDg1FzkDg2KtiGi1FprDwzEtwCuxH5sEquFzkDwlIl6Ep8BxoK6zNgjC-gF-whByzEknfq8BiqLmkBwlI",
+          "departure": {
+            "time": "2020-04-23T13:13:36-04:00",
+            "place": {
+              "type": "place",
+              "location": { "lat": 40.7228434, "lng": -73.9978371 }
+            }
+          },
+          "arrival": {
+            "time": "2020-04-23T13:21:14-04:00",
+            "place": {
+              "name": "Garage MGMT Company",
+              "waypoint": 0,
+              "type": "parkingLot",
+              "location": { "lat": 40.73438, "lng": -74.00197 },
+              "id": "840dr5rs-fb04a7d70eb547399ddafc1256ad3af0",
+              "rates": [
+                {
+                  "type": "restricted",
+                  "estimated": true,
+                  "currency": "USD",
+                  "unit": 3600,
+                  "value": 32.0
+                },
+                {
+                  "type": "restricted",
+                  "estimated": true,
+                  "currency": "USD",
+                  "unit": 86400,
+                  "value": 58.0
+                }
+              ]
+            }
+          },
+          "fares": [
+            {
+              "id": "fare-R000621-C0-S0-T1-F0",
+              "name": "Parking costs",
+              "price": {
+                "type": "value",
+                "estimated": true,
+                "currency": "USD",
+                "unit": 86400,
+                "value": 58.0
+              },
+              "reason": "parking"
+            }
+          ],
+          "transport": { "mode": "car" }
+        },
+        {
+          "id": "R000621-C0-S1",
+          "type": "pedestrian",
+          "travelSummary": { "duration": 300, "length": 327 },
+          "polyline": "BHwrp-oYn_mvjsB_uF47_B",
+          "notices": [{ "code": "simplePolyline" }],
+          "departure": {
+            "time": "2020-04-23T13:26:14-04:00",
+            "place": {
+              "type": "place",
+              "location": { "lat": 40.73438, "lng": -74.00197 }
+            }
+          },
+          "arrival": {
+            "time": "2020-04-23T13:31:14-04:00",
+            "place": {
+              "name": "9th Street",
+              "type": "accessPoint",
+              "location": { "lat": 40.7341, "lng": -73.9987 }
+            }
+          }
+        },
+        {
+          "id": "R000621-C0-S1-arr",
+          "type": "pedestrian",
+          "travelSummary": { "duration": 60, "length": 60 },
+          "polyline": "BHw8j-oYvjntjsBw3C_5H",
+          "notices": [{ "code": "simplePolyline" }],
+          "departure": {
+            "time": "2020-04-23T13:31:14-04:00",
+            "place": {
+              "name": "9th Street",
+              "type": "accessPoint",
+              "location": { "lat": 40.7341, "lng": -73.9987 }
+            }
+          },
+          "arrival": {
+            "time": "2020-04-23T13:32:14-04:00",
+            "place": {
+              "name": "9th Street",
+              "type": "station",
+              "location": { "lat": 40.73424, "lng": -73.9991 },
+              "id": "717030003"
+            }
+          }
+        },
+        {
+          "id": "R000621-C0-S2",
+          "type": "transit",
+          "travelSummary": { "duration": 660, "length": 2576 },
+          "polyline": "BH84n-oY7kwtjsB_sBvqBz3B_8DrdvuE35Jz_-BvuJ3r9Br5Cv-Q3IzyBwH36B86yBzx5M3D_lWA3X",
+          "departure": {
+            "time": "2020-04-23T13:36:00-04:00",
+            "place": {
+              "name": "9th Street",
+              "type": "station",
+              "location": { "lat": 40.73424, "lng": -73.9991 },
+              "id": "717030003"
+            }
+          },
+          "arrival": {
+            "time": "2020-04-23T13:47:00-04:00",
+            "place": {
+              "name": "Hoboken",
+              "type": "station",
+              "location": { "lat": 40.73586, "lng": -74.02922 },
+              "id": "717030008"
+            }
+          },
+          "transport": {
+            "mode": "regionalTrain",
+            "name": "Hoboken - 33rd Street",
+            "category": "Regional Train",
+            "color": "#4D92FB",
+            "textColor": "#000000",
+            "headsign": "Hoboken"
+          },
+          "intermediateStops": [
+            {
+              "departure": {
+                "time": "2020-04-23T13:38:00-04:00",
+                "place": {
+                  "name": "Christopher Street",
+                  "type": "station",
+                  "location": { "lat": 40.73295, "lng": -74.00707 },
+                  "id": "717030004"
+                }
+              }
+            }
+          ],
+          "agency": {
+            "id": "3XQ15100",
+            "name": "Port Authority Trans-Hudson Corporation",
+            "website": "http://mobility.api.here.com/r?app_name=OLS-proxy-intermodal\u0026u=http://www.panynj.gov/path/"
+          }
+        },
+        {
+          "id": "R000621-C0-S3-dep",
+          "type": "pedestrian",
+          "travelSummary": { "duration": 60, "length": 60 },
+          "polyline": "BHwom_oYvm7_jsBviFwmI",
+          "notices": [{ "code": "simplePolyline" }],
+          "departure": {
+            "time": "2020-04-23T13:47:00-04:00",
+            "place": {
+              "name": "Hoboken",
+              "type": "station",
+              "location": { "lat": 40.73586, "lng": -74.02922 },
+              "id": "717030008"
+            }
+          },
+          "arrival": {
+            "time": "2020-04-23T13:48:00-04:00",
+            "place": {
+              "name": "Hoboken",
+              "type": "accessPoint",
+              "location": { "lat": 40.7356, "lng": -74.0288 }
+            }
+          }
+        },
+        {
+          "id": "R000621-C0-S3",
+          "type": "pedestrian",
+          "actions": [
+            {
+              "action": "depart",
+              "duration": 236,
+              "instruction": "Head west. Go for 226 m.",
+              "offset": 0
+            },
+            {
+              "action": "turn",
+              "duration": 180,
+              "instruction": "Turn right onto Washington St. Go for 180 m.",
+              "offset": 5,
+              "direction": "right"
+            },
+            {
+              "action": "arrive",
+              "duration": 0,
+              "instruction": "Arrive at Washington St.",
+              "offset": 9
+            }
+          ],
+          "travelSummary": { "duration": 420, "length": 406 },
+          "polyline": "BHgj--oYz3y_jsBhJlhO4GzgS2G79CwhBviGs8BnvK-uB2GgyDooBuqU47F0xFqzB",
+          "departure": {
+            "time": "2020-04-23T13:48:00-04:00",
+            "place": {
+              "name": "Hoboken",
+              "type": "accessPoint",
+              "location": { "lat": 40.7356, "lng": -74.0288 }
+            }
+          },
+          "arrival": {
+            "time": "2020-04-23T13:55:00-04:00",
+            "place": {
+              "type": "place",
+              "location": { "lat": 40.73718, "lng": -74.03096 }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

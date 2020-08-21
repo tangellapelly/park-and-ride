@@ -1,0 +1,73 @@
+.ctrl-panel {
+  background-color: #ffffff;
+  border-right: solid #ffffff 1px;
+  border-bottom: solid #ffffff 1px;
+  left: auto;
+  width: 360px;
+  max-height: calc(100% - 80px);
+  display: block;
+  font-size: 12px;
+  left: 10px;
+  padding: 10px;
+  position: absolute;
+  text-align: justify;
+  top: 10px;
+  z-index: 9999;
+  -webkit-transition: left 0.5s, -webkit-transform 2s;
+  transition: left 0.5s, transform 2s;
+  clear: both;
+}
+#feedbackTxt {
+  overflow-y: auto;
+  min-height: 10px;
+  max-height: 350px;
+  background-color: #ffffff;
+  width: inherit;
+  display: block;
+  font-size: 12px;
+  position: absolute;
+  text-align: justify;
+  top: 190px;
+  left: 0px;
+  z-index: 0;
+}
+
+.routes-panel {
+  background-color: #ffffff;
+  border-right: solid #ffffff 1px;
+  border-bottom: solid #ffffff 1px;
+  left: 30px;
+  width: 374px;
+  max-height: calc(100% - 100px);
+  display: block;
+  font-size: 12px;
+  left: 10px;
+  padding: 10px;
+  position: absolute;
+  text-align: justify;
+  top: 10px;
+  z-index: 10;
+  -webkit-transition: left 0.5s, -webkit-transform 2s;
+  transition: left 0.5s, transform 2s;
+  clear: both;
+  margin-top: 260px;
+}
+
+.list {
+  list-style: none;
+  padding-inline-start: 0px !important;
+}
+
+.list li {
+  padding: 12px;
+  box-shadow: rgb(158, 202, 237) 0px 0px 1px;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.875rem 1rem 2rem 0.4rem;
+  font-weight: 700;
+}
+
+.list li:hover {
+  background-color: #3c3a3a;
+  color: ghostwhite;
+  cursor: pointer;
+}
